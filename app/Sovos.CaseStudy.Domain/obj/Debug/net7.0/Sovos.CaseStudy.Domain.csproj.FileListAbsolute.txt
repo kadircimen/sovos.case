@@ -1,0 +1,12 @@
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\bin\Debug\net7.0\Sovos.CaseStudy.Domain.deps.json
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\bin\Debug\net7.0\Sovos.CaseStudy.Domain.dll
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\bin\Debug\net7.0\Sovos.CaseStudy.Domain.pdb
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\Sovos.CaseStudy.Domain.csproj.AssemblyReference.cache
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\Sovos.CaseStudy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\Sovos.CaseStudy.Domain.AssemblyInfoInputs.cache
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\Sovos.CaseStudy.Domain.AssemblyInfo.cs
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\Sovos.CaseStudy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\Sovos.CaseStudy.Domain.dll
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\refint\Sovos.CaseStudy.Domain.dll
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\Sovos.CaseStudy.Domain.pdb
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Domain\obj\Debug\net7.0\ref\Sovos.CaseStudy.Domain.dll

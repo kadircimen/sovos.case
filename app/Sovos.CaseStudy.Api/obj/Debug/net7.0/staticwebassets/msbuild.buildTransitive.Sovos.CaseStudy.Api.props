@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Sovos.CaseStudy.Api.props" />
+</Project>

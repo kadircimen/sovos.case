@@ -8,7 +8,7 @@ public class CreateInvoiceDto
     public string ReceiverTitle { get; set; }
     public string SendDate { get; set; }
     public string Email { get; set; }
-    public List<CreateInvoiceLineDto> InvoiceLines { get; set; }
+    public List<CreateInvoiceLineDto> InvoiceLine { get; set; }
 }
 public class CreateInvoiceLineDto
 {

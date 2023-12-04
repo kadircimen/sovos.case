@@ -24,7 +24,7 @@ public class GetInvoiceListQuery : IRequest<GetListresponse<GetInvoiceHeaderQuer
         public async Task<GetListresponse<GetInvoiceHeaderQueryModel>> Handle(GetInvoiceListQuery request, CancellationToken cancelToken)
         {
             IPaginate<InvoiceHeader> invoices = await _invoiceRepo.GetListAsync(
-                index: request.PageRequest.Page, size: request.PageRequest.PageSize, include: x => x.Include(c => c.InvoiceLines));
+                index: request.PageRequest.Page, size: request.PageRequest.PageSize, include: x => x.Include(c => c.InvoiceLine));
 
             var model = _mapper.Map<GetListresponse<GetInvoiceHeaderQueryModel>>(invoices);
             return model;

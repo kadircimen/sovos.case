@@ -19,7 +19,7 @@ public class GetInvoiceByIdQuery : IRequest<GetInvoiceHeaderQueryModel>
         }
         public async Task<GetInvoiceHeaderQueryModel> Handle(GetInvoiceByIdQuery request, CancellationToken cancelToken)
         {
-            var data = await _invoiceRepo.GetAsync(x => x.Id == request.Id, include: c => c.Include(v => v.InvoiceLines));
+            var data = await _invoiceRepo.GetAsync(x => x.Id == request.Id, include: c => c.Include(v => v.InvoiceLine));
             var model = _mapper.Map<GetInvoiceHeaderQueryModel>(data);
             return model;
         }

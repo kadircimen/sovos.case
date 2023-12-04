@@ -1,6 +1,7 @@
 ﻿using Core.Application.Requests;
 using Microsoft.AspNetCore.Mvc;
 using Sovos.CaseStudy.Application.Features.Invoice.Commands.CreateInvoiceCommand;
+using Sovos.CaseStudy.Application.Features.Invoice.Jobs;
 using Sovos.CaseStudy.Application.Features.Invoice.Queries.GetById;
 using Sovos.CaseStudy.Application.Features.Invoice.Queries.GetInvoices;
 

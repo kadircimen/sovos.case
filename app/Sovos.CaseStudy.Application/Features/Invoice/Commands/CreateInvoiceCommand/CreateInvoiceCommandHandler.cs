@@ -19,13 +19,15 @@ public class CreateInvoiceCommandHandler : IRequestHandler<CreateInvoiceRequest,
     }
     public async Task<CreateInvoiceDto> Handle(CreateInvoiceRequest request, CancellationToken cancelToken)
     {
+        await _rules.InvoiceIdCannotDuplicated(request.InvoiceId);
+
         InvoiceHeader mapped = _mapper.Map<InvoiceHeader>(request);
-        var invoiceLines = _mapper.Map<List<InvoiceLine>>(request.InvoiceLines);
-        InvoiceHeader created = await _invoiceRepo.AddAsyncWithRelation(mapped, entity =>
+        var InvoiceLine = _mapper.Map<List<InvoiceLine>>(request.InvoiceLine);
+        InvoiceHeader created = await _invoiceRepo.AddWithRelationAsync(mapped, entity =>
         {
-            foreach (var line in invoiceLines)
+            foreach (var line in InvoiceLine)
             {
-                entity.InvoiceLines.Add(line);
+                entity.InvoiceLine.Add(line);
             }
         });
         CreateInvoiceDto dto = _mapper.Map<CreateInvoiceDto>(created);

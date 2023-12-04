@@ -138,7 +138,7 @@
       "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {
@@ -190,7 +190,7 @@
       },
       "Microsoft.AspNetCore.Http.Features/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
@@ -238,7 +238,7 @@
       },
       "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {
@@ -330,7 +330,7 @@
       "Microsoft.EntityFrameworkCore.Analyzers/7.0.14": {},
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.dll": {
@@ -345,7 +345,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Caching.Memory.dll": {
@@ -354,25 +354,25 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "Microsoft.Extensions.Configuration.Binder/7.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.423.11508"
           }
         }
       },
@@ -412,7 +412,7 @@
       },
       "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
@@ -423,7 +423,7 @@
       },
       "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
@@ -468,7 +468,7 @@
       "Microsoft.Extensions.Options/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Options.dll": {
@@ -477,17 +477,17 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/7.0.0": {
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
           }
         }
       },
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0",
           "System.Buffers": "4.5.1"
         },
         "runtime": {
@@ -837,7 +837,7 @@
         "dependencies": {
           "FluentValidation": "11.8.1",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.4",
           "Newtonsoft.Json": "13.0.3",
           "Serilog": "3.1.0",
           "Serilog.Sinks.Elasticsearch": "9.0.3"
@@ -1059,19 +1059,19 @@
       "path": "microsoft.extensions.caching.memory/7.0.0",
       "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
-      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
-      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+    "Microsoft.Extensions.Configuration.Binder/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
-      "path": "microsoft.extensions.configuration.binder/8.0.0",
-      "hashPath": "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512"
+      "sha512": "sha512-8+XPvJnHZsYgHOQlcMuQe7QNF5KdVKHH1F/wW3nd8/u81Gk/XFAYMDP0Lpz18h7/AM95M662vvqMorcYxCBB4w==",
+      "path": "microsoft.extensions.configuration.binder/7.0.4",
+      "hashPath": "microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "type": "package",
@@ -1136,12 +1136,12 @@
       "path": "microsoft.extensions.options/7.0.0",
       "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/8.0.0": {
+    "Microsoft.Extensions.Primitives/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
-      "path": "microsoft.extensions.primitives/8.0.0",
-      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+      "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
     },
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",

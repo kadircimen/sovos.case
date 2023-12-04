@@ -8,8 +8,8 @@ C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin
 C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin\Debug\net7.0\Sovos.CaseStudy.Domain.dll
 C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin\Debug\net7.0\Core.Application.pdb
 C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin\Debug\net7.0\Core.CrossCuttingConcerns.pdb
-C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin\Debug\net7.0\Core.Mailing.pdb
 C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin\Debug\net7.0\Core.Persistence.pdb
+C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin\Debug\net7.0\Core.Mailing.pdb
 C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\bin\Debug\net7.0\Sovos.CaseStudy.Domain.pdb
 C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\obj\Debug\net7.0\Sovos.CaseStudy.Application.csproj.AssemblyReference.cache
 C:\Users\KadirCimen\Desktop\Proje\Sovos.Case\app\Sovos.CaseStudy.Application\obj\Debug\net7.0\Sovos.CaseStudy.Application.GeneratedMSBuildEditorConfig.editorconfig

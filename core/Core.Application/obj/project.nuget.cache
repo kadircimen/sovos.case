@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XsTG+2JTnUR1z/f9s3pDvJeYpeSOlYJZPWawmnzqngw227i2dc0+mh7HMVrMa0nE2HgIngvYOTZai1gUYcW0/A==",
+  "dgSpecHash": "jsGOrtOZ57fKWbdbv6OK442L3OhtZo3RK4CnSrhmS6w68cfg5wtWMWIbI6ZcG9mRrI1e/EYxuc/CK3B5qHDKzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\KadirCimen\\Desktop\\Proje\\Sovos.Case\\core\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [
@@ -32,8 +32,8 @@
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.14\\microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
@@ -43,7 +43,7 @@
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\KadirCimen\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",

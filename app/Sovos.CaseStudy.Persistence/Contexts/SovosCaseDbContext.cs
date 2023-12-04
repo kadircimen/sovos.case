@@ -7,7 +7,7 @@ public class SovosCaseDbContext : DbContext
 {
     protected IConfiguration Configuration { get; set; }
     public DbSet<InvoiceHeader> InvoiceHeaders { get; set; }
-    public DbSet<InvoiceLine> InvoiceLines { get; set; }
+    public DbSet<InvoiceLine> InvoiceLine { get; set; }
     public SovosCaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
     {
         Configuration = configuration;
@@ -19,7 +19,7 @@ public class SovosCaseDbContext : DbContext
         modelBuilder.Entity<InvoiceHeader>(x =>
         {
             x.ToTable("InvoiceHeaders").HasKey(c => c.Id);
-            x.HasMany(c => c.InvoiceLines);
+            x.HasMany(c => c.InvoiceLine);
         });
 
         modelBuilder.Entity<InvoiceLine>(x =>

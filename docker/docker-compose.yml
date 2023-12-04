@@ -1,0 +1,74 @@
+version: '3.8'
+volumes:
+  sovoscasedb_volume:
+  sovoscasepgadmin_volume:
+  sovoscaseelastic_volume:
+  sovoscasekibana_volume:
+networks:
+  sovoscase_network:
+    driver: bridge 
+    
+services:
+  sovoscasepostgres.db:
+    container_name: SovosCasePosgreDb
+    image: postgres:latest
+    ports:
+      - 9856:5432
+    restart: always
+    volumes:
+      - sovoscasedb_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "sovoscaseuser"
+      POSTGRES_PASSWORD: "caseuser123*"
+      POSTGRES_DB: "SovosCaseDb"
+    networks:
+      - sovoscase_network
+    command: postgres -c listen_addresses=*
+
+  sovoscasepg.ui:
+    container_name: SovosCasePgAdmin
+    image: dpage/pgadmin4
+    restart: always
+    ports:
+      - 9857:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: case@sovos.com
+      PGADMIN_DEFAULT_PASSWORD: caseuser123*
+    networks:
+      - sovoscase_network
+    volumes:
+      - sovoscasepgadmin_volume:/var/lib/pgadmin
+
+  sovoscaseelastic.db:
+    container_name: SovosCaseElasticDb
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.9.1
+    expose:
+      - 9200
+    environment:
+      - xpack.security.enabled=false
+      - "discovery.type=single-node"
+      - ELASTIC_USERNAME=sovoselsusr
+      - ELASTIC_PASSWORD=s0v0s3l4st!c
+    networks:
+      - sovoscase_network
+    ports:
+      - 9200:9200
+    volumes:
+      - sovoscaseelastic_volume:/usr/share/elasticdb/data
+
+  sovoscasekibana.ui:
+    container_name: SovosCaseKibanaUi
+    image: docker.elastic.co/kibana/kibana:8.9.1
+    environment:
+      - ELASTICSEARCH_HOST=http://sovoscaseelastic.db:9200
+    expose:
+      - 5601
+    networks:
+      - sovoscase_network
+    depends_on:
+      - sovoscaseelastic.db
+    ports:
+      - 5601:5601
+    volumes:
+      - sovoscasekibana_volume:/usr/share/kibanaui/data
+

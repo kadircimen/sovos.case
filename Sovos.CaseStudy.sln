@@ -7,21 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{7F1E93F6-65A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{65AA8238-E062-4B7C-8E20-972C3BEE442D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sovos.CaseStudy.Api", "app\Sovos.CaseStudy.Api\Sovos.CaseStudy.Api.csproj", "{0F48F1D8-610C-4328-8006-8FD820E7BADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sovos.CaseStudy.Api", "app\Sovos.CaseStudy.Api\Sovos.CaseStudy.Api.csproj", "{0F48F1D8-610C-4328-8006-8FD820E7BADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sovos.CaseStudy.Domain", "app\Sovos.CaseStudy.Domain\Sovos.CaseStudy.Domain.csproj", "{4FCEFE0C-7820-452F-834E-92EE72433CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sovos.CaseStudy.Domain", "app\Sovos.CaseStudy.Domain\Sovos.CaseStudy.Domain.csproj", "{4FCEFE0C-7820-452F-834E-92EE72433CFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sovos.CaseStudy.Persistence", "app\Sovos.CaseStudy.Persistence\Sovos.CaseStudy.Persistence.csproj", "{5ED6C07F-E09F-4EC1-B5D9-3071D374B5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sovos.CaseStudy.Persistence", "app\Sovos.CaseStudy.Persistence\Sovos.CaseStudy.Persistence.csproj", "{5ED6C07F-E09F-4EC1-B5D9-3071D374B5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sovos.CaseStudy.Application", "app\Sovos.CaseStudy.Application\Sovos.CaseStudy.Application.csproj", "{663EA810-8FFB-453C-BFE4-E671DADAAB22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sovos.CaseStudy.Application", "app\Sovos.CaseStudy.Application\Sovos.CaseStudy.Application.csproj", "{663EA810-8FFB-453C-BFE4-E671DADAAB22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "core\Core.Application\Core.Application.csproj", "{B48B78EA-DAA0-44FA-913E-8C6EC0FE527D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Application", "core\Core.Application\Core.Application.csproj", "{B48B78EA-DAA0-44FA-913E-8C6EC0FE527D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "core\Core.Persistence\Core.Persistence.csproj", "{93516D06-011A-4C57-B932-FE5EC2366A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "core\Core.Persistence\Core.Persistence.csproj", "{93516D06-011A-4C57-B932-FE5EC2366A99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "core\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{AB91F914-F27F-4B53-9D54-EE3D8DFA78AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.CrossCuttingConcerns", "core\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{AB91F914-F27F-4B53-9D54-EE3D8DFA78AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Mailing", "core\Core.Mailing\Core.Mailing.csproj", "{3C9DC064-AFB8-4097-BCC4-BE0A96771306}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Mailing", "core\Mailing\Core.Mailing.csproj", "{446B2433-900D-443E-BB27-6E0E75AABCAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +57,10 @@ Global
 		{AB91F914-F27F-4B53-9D54-EE3D8DFA78AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB91F914-F27F-4B53-9D54-EE3D8DFA78AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB91F914-F27F-4B53-9D54-EE3D8DFA78AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C9DC064-AFB8-4097-BCC4-BE0A96771306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C9DC064-AFB8-4097-BCC4-BE0A96771306}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C9DC064-AFB8-4097-BCC4-BE0A96771306}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C9DC064-AFB8-4097-BCC4-BE0A96771306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446B2433-900D-443E-BB27-6E0E75AABCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446B2433-900D-443E-BB27-6E0E75AABCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446B2433-900D-443E-BB27-6E0E75AABCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446B2433-900D-443E-BB27-6E0E75AABCAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,7 +73,7 @@ Global
 		{B48B78EA-DAA0-44FA-913E-8C6EC0FE527D} = {65AA8238-E062-4B7C-8E20-972C3BEE442D}
 		{93516D06-011A-4C57-B932-FE5EC2366A99} = {65AA8238-E062-4B7C-8E20-972C3BEE442D}
 		{AB91F914-F27F-4B53-9D54-EE3D8DFA78AB} = {65AA8238-E062-4B7C-8E20-972C3BEE442D}
-		{3C9DC064-AFB8-4097-BCC4-BE0A96771306} = {65AA8238-E062-4B7C-8E20-972C3BEE442D}
+		{446B2433-900D-443E-BB27-6E0E75AABCAD} = {65AA8238-E062-4B7C-8E20-972C3BEE442D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14AB2546-0CE5-4F45-BA68-9CA442ECAABA}

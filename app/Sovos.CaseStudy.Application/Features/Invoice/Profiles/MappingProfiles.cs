@@ -12,11 +12,11 @@ public class MappingProfiles : Profile
     public MappingProfiles()
     {
         CreateMap<CreateInvoiceRequest, InvoiceHeader>()
-            .ForMember(dest => dest.InvoiceLines, opt => opt.MapFrom(src => src.InvoiceLines)).ReverseMap();
+            .ForMember(dest => dest.InvoiceLine, opt => opt.MapFrom(src => src.InvoiceLine)).ReverseMap();
         CreateMap<CreateInvoiceLineRequest, InvoiceLine>().ReverseMap();
         CreateMap<InvoiceLine, CreateInvoiceLineDto>();
         CreateMap<InvoiceHeader, CreateInvoiceDto>().ReverseMap();
-        CreateMap<InvoiceHeader, GetInvoiceHeaderQueryModel>().ForMember(x => x.InvoiceLines, c => c.MapFrom(src => src.InvoiceLines)).ReverseMap();
+        CreateMap<InvoiceHeader, GetInvoiceHeaderQueryModel>().ForMember(x => x.InvoiceLine, c => c.MapFrom(src => src.InvoiceLine)).ReverseMap();
         CreateMap<IPaginate<InvoiceHeader>, GetListresponse<GetInvoiceHeaderQueryModel>>().ReverseMap();
         CreateMap<InvoiceLine, GetInvoiceLineQueryModel>();
     }

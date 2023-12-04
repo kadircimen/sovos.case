@@ -8,9 +8,9 @@ public class CreateInvoiceRequest : IRequest<CreateInvoiceDto>
     public string InvoiceId { get; set; }
     public string SenderTitle { get; set; }
     public string ReceiverTitle { get; set; }
-    public string SendDate { get; set; }
+    public string Date { get; set; }
     public string Email { get; set; }
-    public List<CreateInvoiceLineRequest> InvoiceLines { get; set; }
+    public List<CreateInvoiceLineRequest> InvoiceLine { get; set; }
 }
 public class CreateInvoiceLineRequest
 {

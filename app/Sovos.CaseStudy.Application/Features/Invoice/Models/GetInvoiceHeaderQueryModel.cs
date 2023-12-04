@@ -11,7 +11,7 @@ public class GetInvoiceHeaderQueryModel
     public DateTime Created { get; set; } = DateTime.Now;
     public DateTime Updated { get; set; } = DateTime.Now;
     public bool IsActive { get; set; }
-    public virtual List<GetInvoiceLineQueryModel> InvoiceLines { get; set; }
+    public virtual List<GetInvoiceLineQueryModel> InvoiceLine { get; set; }
 }
 public class GetInvoiceLineQueryModel
 {

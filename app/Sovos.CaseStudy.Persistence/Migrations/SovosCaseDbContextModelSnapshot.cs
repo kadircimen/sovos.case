@@ -33,6 +33,10 @@ namespace Sovos.CaseStudy.Persistence.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<string>("Date")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("text");
@@ -48,10 +52,6 @@ namespace Sovos.CaseStudy.Persistence.Migrations
                         .HasColumnType("boolean");
 
                     b.Property<string>("ReceiverTitle")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("SendDate")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -111,7 +111,7 @@ namespace Sovos.CaseStudy.Persistence.Migrations
             modelBuilder.Entity("Sovos.CaseStudy.Domain.Entites.InvoiceLine", b =>
                 {
                     b.HasOne("Sovos.CaseStudy.Domain.Entites.InvoiceHeader", null)
-                        .WithMany("InvoiceLines")
+                        .WithMany("InvoiceLine")
                         .HasForeignKey("InvoiceHeaderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -119,7 +119,7 @@ namespace Sovos.CaseStudy.Persistence.Migrations
 
             modelBuilder.Entity("Sovos.CaseStudy.Domain.Entites.InvoiceHeader", b =>
                 {
-                    b.Navigation("InvoiceLines");
+                    b.Navigation("InvoiceLine");
                 });
 #pragma warning restore 612, 618
         }

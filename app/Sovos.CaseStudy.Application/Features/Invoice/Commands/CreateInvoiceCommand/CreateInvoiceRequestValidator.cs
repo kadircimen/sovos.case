@@ -8,7 +8,8 @@ public class CreateInvoiceRequestValidator : AbstractValidator<CreateInvoiceRequ
         RuleFor(x => x.SenderTitle).NotEmpty();
         RuleFor(x => x.InvoiceId).NotEmpty();
         RuleFor(x => x.ReceiverTitle).NotEmpty();
-        //RuleForEach(x => x.InvoiceLines).ChildRules(l =>
+        RuleFor(x => x.Email).NotEmpty();
+        //RuleForEach(x => x.InvoiceLine).ChildRules(l =>
         //{
         //    l.RuleFor(c => c.Name).NotEmpty();
         //    l.RuleFor(c => c.Quantity).GreaterThan(0);

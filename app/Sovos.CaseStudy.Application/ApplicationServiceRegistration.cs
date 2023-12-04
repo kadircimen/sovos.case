@@ -1,6 +1,7 @@
 ﻿using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Validation;
 using Core.CrossCuttingConcerns.Logging;
+using Core.Mailing;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +23,7 @@ public static class ApplicationServiceRegistration
             conf.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly());
         });
         services.AddSingleton<LoggerServiceBase, ElasticSearchLogger>();
+        services.AddSingleton<IMailService, MailService>();
         return services;
     }
 }

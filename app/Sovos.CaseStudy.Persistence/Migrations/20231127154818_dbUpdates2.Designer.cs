@@ -114,7 +114,7 @@ namespace Sovos.CaseStudy.Persistence.Migrations
             modelBuilder.Entity("Sovos.CaseStudy.Domain.Entites.InvoiceLine", b =>
                 {
                     b.HasOne("Sovos.CaseStudy.Domain.Entites.InvoiceHeader", null)
-                        .WithMany("InvoiceLines")
+                        .WithMany("InvoiceLine")
                         .HasForeignKey("InvoiceHeaderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -122,7 +122,7 @@ namespace Sovos.CaseStudy.Persistence.Migrations
 
             modelBuilder.Entity("Sovos.CaseStudy.Domain.Entites.InvoiceHeader", b =>
                 {
-                    b.Navigation("InvoiceLines");
+                    b.Navigation("InvoiceLine");
                 });
 #pragma warning restore 612, 618
         }
